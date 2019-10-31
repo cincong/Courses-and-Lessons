@@ -1,0 +1,23 @@
+{
+  "name": "rest-courses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "node server.js",
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cinthya Cong",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^7.4.11",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/joi": "^15.1.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "standard": "^14.3.1"
+  }
+}
